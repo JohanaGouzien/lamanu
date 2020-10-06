@@ -7,14 +7,51 @@ table, th, td {border: 1px solid black;}
 
 .italicText {font-style: italic;}
 
-.colorred {color:red}
+.redText {color:red}
 
-.colorgreen {color:green}
+.greenText {color:green}
 
-.colorblue {color:blue}
+.whiteText {color:whitesmoke}
+
+.blueText {color:blue}
 
 .arial {font-family:Arial;}
 
 .center {text-align:center}
 
-.backgroundblue {background-color: blue;}
+.backgroundBlue {background-color:rgb(14, 14, 133);}
+
+.backgroundWhite {background-color: white;}
+
+.backgroundGreen {background-color: green;}
+
+.backgroundRed {background-color: red;}
+
+.backgroundYellow {background-color: yellow;}
+
+.backgroundOrange {background-color: orange;}
+
+.backgroundGrey {background-color: grey;}
+
+.backgroundOrangeDark {background-color: rgb(121, 48, 5);}
+
+.backgroundDarkBlue {background-color: rgb(23, 23, 53);}
+
+
+
+#backgroundImage {
+    background-image: url(IMG_2068.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+#margeExt {margin: 10px;}
+
+#margeInt {padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
