@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="C:/wamp64/www/lamanu/assets/css/voyagestyle.css">
-    <meta name="viewport" media="screen and (max-width: 480px)" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="voyagestyle.css">
     <title>Voyage and co</title>
+    <script src="https://kit.fontawesome.com/74d8e40d4c.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="backgroundColour">
@@ -18,7 +20,7 @@
 <nav>
     <ul> 
         <li> <a href="#">Accueil</a></li>
-        <li><a href="blockLine"></a>Destinations</li>
+        <li><a href="blockLine">Destinations</a></li>
         <li><a href="#">Réservations</a></li>
         <li><a href="#">Contact</a></li>
         <li>
@@ -26,7 +28,9 @@
             <input type="text" name="search" placeholder="Rechercher">
             <input type="submit" name="searchButton" value="Rechercher">
             </form> 
+            <li><i class="fas fa-bars" id="navIcon"></i></li>
         </li>
+        
 
     </ul>
     </nav>
@@ -47,18 +51,20 @@
     <section id="conteneur">
         <article id="block1">
             <h2>Japon</h2>
-            <img src ="japon.jpg" alt="japon" id="photo">
+            <img src ="japon.jpg" alt="japon" class="photo">
             <p>Ut libero nisl, tristique at orci non, pharetra convallis metus. Suspendisse eu ipsum ut urna sodales dapibus. Sed pretium facilisis justo, eu placerat odio hendrerit eget. Morbi rhoncus, libero quis aliquam posuere, tortor nulla hendrerit nunc, id mattis orci risus eu lorem. Nulla malesuada non risus quis sollicitudin.</p>
         </article>
         <article id="block2">
             <h2>Costa Rica</h2>
-            <img src="costarica.jpg" alt="costarica" id="photo">
+            <img src="costarica.jpg" alt="costarica" class="photo">
             <p>Ut libero nisl, tristique at orci non, pharetra convallis metus. Suspendisse eu ipsum ut urna sodales dapibus. Sed pretium facilisis justo, eu placerat odio hendrerit eget. Morbi rhoncus, libero quis aliquam posuere, tortor nulla hendrerit nunc, id mattis orci risus eu lorem. Nulla malesuada non risus quis sollicitudin.</p>
         </article>
-        <article id=block3>
+        <article id="block3">
             <h2>Tunisie</h2>
-            <img src="desert.jpg" alt="desert" id="photo">
+            <img src="desert.jpg" alt="desert" class="photo">
             <p>Ut libero nisl, tristique at orci non, pharetra convallis metus. Suspendisse eu ipsum ut urna sodales dapibus. Sed pretium facilisis justo, eu placerat odio hendrerit eget. Morbi rhoncus, libero quis aliquam posuere, tortor nulla hendrerit nunc, id mattis orci risus eu lorem. Nulla malesuada non risus quis sollicitudin.</p>
         </article>
     </section>
+</a>
 </body>
+</html>

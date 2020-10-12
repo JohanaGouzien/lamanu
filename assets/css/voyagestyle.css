@@ -31,12 +31,13 @@ ul{
 a {
     text-decoration: none;
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #presentation {
     background-color: sandybrown;
     border:1px solid sandybrown;
-    width: 1100px;
+    width: 75%;
     text-align: center;
     margin-left:auto ;
     margin-right: auto;
@@ -46,20 +47,51 @@ a {
 #conteneur {
     display: flex;
     justify-content: space-around;
+    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-}
+    }
 
-#photo {
-    width: 80%;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    
-}
+.photo {
+    width: 75%;
+
+    }
     
 #backgroundColour {
     background-color: rgba(175, 214, 226, 0.952);
 }
 
+#navIcon {
+    display: none;
+}
+
+
 @media screen and (max-width: 480px)
+{
+    section {
+        flex-direction: column;
+    }
+
+    a, form {
+        display: none;
+    }
+
+    #navIcon {
+        display: block;
+        
+    }
+    
+    h1 {
+        text-align: center;
+    }
+
+}
+    
+    
+
+
+
+    
+
+
+
