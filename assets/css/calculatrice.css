@@ -1,0 +1,86 @@
+
+.boite1 {
+    display: grid;
+    grid-template-rows: 5% 10% 20% 5% 60%;
+    width: 25%;
+    height: 600px;
+    background-color: grey;
+    grid-template-areas: "entete" "lignedeux" "lignetrois" "ligneM"
+    "pavnum";
+    border: black 1px solid;
+    margin-left:1px ;
+    margin-right: 1px;
+    
+}
+
+/* LIGNE 1*/
+.entete {
+    display: grid;
+    grid-area: entete;
+    grid-template-columns: 70% 10% 10% 10% ;
+    height: 500px;
+    
+}
+
+
+
+.right {
+    display:grid;
+    justify-content: right;
+}
+
+/*LIGNE 2*/
+.lignedeux {
+    display: grid;
+    grid-area: lignedeux;
+    grid-template-columns: 10% 20% 10% 60% ;
+    font-size: 20px;
+}
+
+/*LIGNE 3*/
+.lignetrois {
+    display: grid;
+    grid-area: lignetrois;
+    justify-content: end;
+    font-size: 40px;
+}
+
+/*LIGNE 4 M*/
+.ligneoutil {
+    display: grid;
+    grid-area: ligneM;
+    grid-template-columns: auto auto auto auto auto auto;
+    font-size: 10px;
+}
+
+/* PAVE NUMERIQUE */
+.pavenumerique {
+    display: grid;
+    grid-area: pavnum ;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2px;
+    }
+
+.pavenumerique div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+/* COULEURS PAVNUM */
+.gris {
+    background-color: rgb(143, 154, 165);
+}
+
+.gris:hover {background-color: chocolate;}
+
+.grisclair {
+    background-color:rgb(211, 210, 210) ;
+}
+
+.bleu {
+    background-color: rgb(110, 163, 231);
+}

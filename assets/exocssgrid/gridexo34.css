@@ -1,0 +1,52 @@
+.exo3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 40px 40px 40px;
+    grid-template-areas: 
+    "header header header header"
+    "menu main main right"
+    "menu footer footer footer";
+    background-color: pink;}
+
+ .header { 
+     grid-area: header;
+     border: red 2px solid;
+     text-align: center;
+     padding-top: 5px;}
+
+ .menu {
+     grid-area: menu;
+     border: red 2px solid;
+     text-align: center;
+     padding-top: 15px;}
+ 
+ .main { 
+     grid-area: main;
+     border: red 2px solid;
+     text-align: center;
+     padding-top: 5px;}
+
+.right {
+    grid-area: right;
+    border:red 2px solid;
+    text-align:center;
+    padding-top: 5px;}
+
+.footer {
+    grid-area: footer;
+    border: red 2px solid;
+    text-align:center;
+    padding-top: 5px;}
+
+@media (max-width: 640px) {
+    .exo3{
+        grid-template-areas: "header" "menu" "main" 
+        "right" "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 40px 40px 40px 40px 40px;}
+    }
+
+
+
+
+  

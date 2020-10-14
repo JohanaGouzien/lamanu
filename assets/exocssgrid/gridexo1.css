@@ -1,0 +1,130 @@
+.wrapper { 
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 40px 40px 40px;
+    grid-gap: 5px;
+}
+
+.one {background-color: red;
+    color: white;
+}
+
+.two {
+    background-color: rgb(37, 176, 194);
+    color: white;}
+
+.three {background-color: green;
+    color: white;}
+
+.four {background-color: indigo;
+    color: white;}
+
+.five {background-color: orange;
+    color: white;}
+
+.six {background-color: blue;
+   color: white;}
+
+.seven {background-color: crimson;
+    color:white;}
+
+.eight {background-color: rgb(123, 160, 68);
+    color: white;}
+
+.nine {background-color: rgb(14, 14, 73);
+    color: white;}
+
+    .wrapperdeux {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 60px 20px 40px;
+        grid-gap: 10px;
+    }
+
+
+    
+    .oneone {background-color: red;
+        color: white;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .twotwo {
+        background-color: rgb(37, 176, 194);
+        color: white;}
+    
+    .threethree {background-color: green;
+        color: white;}
+    
+    .fourfour {background-color: indigo;
+        color: white;}
+    
+    .fivefive {background-color: orange;
+        color: white;}
+    
+    .sixsix {background-color: blue;
+       color: white;
+    grid-column: 4;
+    grid-row: 2;}
+    
+    .sevenseven {background-color: crimson;
+        color:white;
+    grid-column: 1;
+    grid-row: 3;}
+    
+    .eighteight {background-color: rgb(123, 160, 68);
+        color: white;
+    grid-column:3 ;
+    grid-row: 3;}
+    
+    .ninenine {background-color: rgb(14, 14, 73);
+        color: white;
+        grid-column: 4;
+   grid-row: 3;}
+
+   .wrappeurtrois {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 130px 35px 80px;
+    grid-gap: 5px;
+   }
+   .oneonet {background-color: red;
+    color: white;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.twotwot {
+    background-color: rgb(37, 176, 194);
+    color: white;}
+
+.threethreet {background-color: green;
+    color: white;}
+
+.fourfourt {background-color: indigo;
+    color: white;}
+
+.fivefivet {background-color: orange;
+    color: white;}
+
+.sixsixt {background-color: blue;
+   color: white;
+grid-column: 4;
+grid-row: 2;}
+
+.sevensevent {background-color: crimson;
+    color:white;
+grid-column: 1;
+grid-row: 3;}
+
+.eighteightt {background-color: rgb(123, 160, 68);
+    color: white;
+grid-column:3 ;
+grid-row: 3;}
+
+.nineninet {background-color: rgb(14, 14, 73);
+    color: white;
+    grid-column: 4;
+grid-row: 3;}
+
+
