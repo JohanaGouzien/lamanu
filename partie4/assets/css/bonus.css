@@ -1,21 +1,18 @@
 /* EXERCICE BONUS CSS PART.4*/
 
-
-
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 1em;
-}
+  }
 
 img {
     width: 100%;
     height: auto;
-}
-
+  }
 
 .location-title {
+    /* position du titre */
     position: absolute;
     top: 0;
     left: 0;
@@ -23,17 +20,16 @@ img {
     width: 100%;
     background: rgba(90,0,10,0.4);
      
-    /* typographic styles */
+    /* typographie */
     color: white;
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
      
-    /* position the text centrally*/
+    /* centrer le texte*/
     display: flex;
     align-items: center;
     justify-content: center;
-
     opacity: 0;
     transition: opacity .5s;
     z-index: 1;
@@ -44,26 +40,25 @@ img {
     overflow: hidden;
   }
 
-  .location-image {
+.location-image {
     line-height: 0;
-}
+  }
 
 .location-listing:hover .location-title {
     opacity: 1;
-}
+  }
 
 .location-image img {
     filter: blur(0px);
     transition: filter 0.3s ease-in;
-   
+    /*Mettre les images à la même taille*/
+    transform: scale(1.1);
   }
    
+  /*EFFET FLOUTAGE */
   .location-listing:hover .location-image img {
     filter: blur(2px);
   }
 
-  .imageMoscou {
-      max-width: 100%;
-      height: auto;
-  }
+  
 
