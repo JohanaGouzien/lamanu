@@ -93,3 +93,7 @@ height: 75px;}
 
 #fieldset3 {
     background-color: rgb(255, 0, 98);}
+
+table {
+ border: 1px solid black;
+}
